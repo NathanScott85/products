@@ -1,9 +1,12 @@
 import React from 'react';
+import { Products }  from './pages';
+import { Header } from './components/header';
 
-function App() {
+function App(props: any) {
   return (
     <div>
-      Here.
+      <Header />
+      <Products />
     </div>
   );
 }

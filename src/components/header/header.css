@@ -1,0 +1,24 @@
+
+.qa-company-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0rem 1rem 0rem 1rem;
+    border-bottom: 1px solid rgba(0,0,0,.1);;
+}
+.qa-company-name{
+    font-family: 'Niconne', sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.qa-login, .qa-sign-up{
+    font-size: 14px;
+    padding: 1rem 0rem 1rem 1rem;
+    margin-top: 1.8rem;
+    font-family: 'Quicksand', sans-serif;
+    color:  rgba(0,0,0,.5);
+}
