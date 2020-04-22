@@ -1,0 +1,33 @@
+.qa-products-wrapper{
+    border: 1px solid rgba(0,0,0,.16);
+    margin-bottom: 16px;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.16);
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.qa-products-title, .qa-products-description, .qa-products-price{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0.5rem;
+    box-sizing: content-box;
+}
+
+.qa-products-description{
+    width: 1300px;
+}
+.qa-products-image{
+    width: 140px;
+} 
+.qa-products-price {
+    width: 150px;
+}
+.qa-products-container{
+    margin: 1rem 1rem 1rem 1rem;
+} 
